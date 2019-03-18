@@ -1,0 +1,174 @@
+/*
+Theme  Name: Curso wp
+Theme URI: localhost
+Description: Tutorial do youtube
+Author: Romário Sousa
+Author URI: Louco.com
+Version: 1.0
+*/
+
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #FAF0E6;
+}
+
+.clear {
+  clear: both;
+}
+
+
+.header {
+  height: 600px;
+  background: url(assets/images/background.jpg) center top;
+  padding: 10px 0;
+}
+
+.header-page {
+  background: #000;
+}
+
+.header-page h1{
+   margin: 0;
+}
+
+.header-page h1 a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 0;
+  display: block;
+}
+
+.bg-page {
+  background: url(assets/images/background.jpg) center top;
+  display: block;
+  height: 365px;
+}
+
+.bg-page h2 {
+  padding-top: 140px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 40px;
+  margin: 0;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.header h1 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+ .header .infor {
+  padding-top: 120px;
+  margin: 0 auto;
+  width: 860px;
+  text-align: center;
+}
+
+.header .infor h2 {
+  color: #fff;
+  font-size: 30px;
+}
+
+.header .infor p {
+  color: #fff;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+.widgets {
+  background: #fff;
+  padding: 20px;
+  display: flex;
+}
+
+.widgets .box {
+  float: left;
+  width: 200px;
+  margin-left: 9%;
+}
+
+.custom-botao {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: #60d3b1;
+  color: #fff;
+  border-radius: 30px;
+  margin: 0 auto;
+  width: 339px;
+}
+
+.wrap {
+  margin: 0 auto;
+  width: 960px;
+}
+
+.blog {
+  padding: 10px 0;
+}
+
+.blog .wrap h2 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 40px;
+  color: #383838;
+}
+
+.list-posts {
+  background-color: white;
+  float: left;
+  margin-bottom: 40px;
+
+}
+
+.list-posts img {
+  float: left;
+  height: 360px;
+  width: 340px;
+  margin-right: 20px;
+}
+
+.segundo-post img {
+  float: right;
+  margin-left: 20px;
+  margin-right: 0;
+}
+
+.segundo-post .box-content-posts {
+  float: left;
+}
+
+.box-content-posts {
+  float: right;
+  width: 500px;
+  padding: 10px;
+  text-align: left;
+}
+
+ .box-content-posts h2{
+  text-align: left;
+  margin-top: 0;
+}
+
+.box-content-posts a {
+  display: inline-block;
+  width: 70px;
+}
+
+.galeria {
+ background: #fff;
+ padding: 20px 0;
+}
+
+.galeria h2, .galeria p {
+  color: #383838;
+  text-align: center;
+}
